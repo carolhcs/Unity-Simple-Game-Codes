@@ -6,6 +6,8 @@ using System;
 
 public class ALGC_Prototipo_FDEC_ControleJogador : MonoBehaviour {
 	
+	//Editando...
+
 	public float velocidade = 8; // velocidade de movimento
 	public float forca = 300; // força do salto
 	public int pontos = 0;
