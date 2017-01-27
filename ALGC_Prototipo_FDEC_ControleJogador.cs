@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-using UnityEngine.SceneManagement;
+using UnityEngine.SceneManagement; // Essa linha pode acarretar erros em vorsões mais antigas do unity
 using UnityEngine.UI;
 using System;
 
@@ -46,7 +46,7 @@ public class ALGC_Prototipo_FDEC_ControleJogador : MonoBehaviour {
 			PlayerPrefs.SetInt("MoedasPrata", moedasP);
 			PlayerPrefs.SetInt("MoedasOuro", moedasO);
 			PlayerPrefs.SetInt("PlayerPontos", pontos);
-			SceneManager.LoadScene ("05GameOver");
+			SceneManager.LoadScene ("05GameOver"); // sceneManager pode ser trocado por Application.loadlevel();
 		} else if (coll.gameObject.tag == "Moeda01") {
 			pontos++;
 			moedasB++;
