@@ -5,4 +5,4 @@ This is a repository containing codes used in games and prototypes of C# and Jav
 <br><br>
 Para mais informações, tutoriais, dicas e pesquisas conheça meu blog!<br>
 For more information, tutorials, tips and research know my blog!<br>
-algamecode.blogspot.com
+<a href=”http://algamecode.blogspot.com/">Blog Artificial Life Game Code</a>
